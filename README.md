@@ -8,15 +8,15 @@ ptfst-db is a package that contains data about the ATC24 server for PTFS, used b
 
 ### NPM
 
-`sh
+```sh
 npm install ptfst-db
-`
+```
 
 ### Yarn
 
-`sh
+```sh
 yarn add ptfst-db
-`
+```
 
 ## Contributing
 
