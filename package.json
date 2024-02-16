@@ -2,8 +2,8 @@
   "name": "ptfst-db",
   "version": "1.0.0",
   "description": "Database of ATC24 Data used for all PTFS Tools Applications",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/FormicAcidGD/ptfst-db.git"
