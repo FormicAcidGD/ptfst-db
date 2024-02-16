@@ -1,6 +1,6 @@
 {
   "name": "ptfst-db",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Database of ATC24 Data used for all PTFS Tools Applications",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
