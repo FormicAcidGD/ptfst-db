@@ -616,6 +616,7 @@ function generateAirports(): Airport[] {
             groundCallsign: "",
             towerCallsigns: [
                 "Keflavik Centre",
+		"Keflavik Control",
                 "Grindavik Approach",
                 "Grindavik Centre",
                 "Grindavik Control",
@@ -1020,25 +1021,25 @@ function generateAirports(): Airport[] {
                     link: "https://docs.google.com/document/d/1sEOREpJL5TCAs7tejRn2Fm02Ai4IZV5uolC9cX65x3c/edit",
                     sids: [
                         {
-                            name: "KNIF1A",
+                            name: "KNIFE1A",
                             runways: [
                                 "11"
                             ]
                         },
                         {
-                            name: "KNIF1B",
+                            name: "KNIFE1B",
                             runways: [
                                 "15"
                             ]
                         },
                         {
-                            name: "KNIF1C",
+                            name: "KNIFE1C",
                             runways: [
                                 "29"
                             ]
                         },
                         {
-                            name: "KNIF1D",
+                            name: "KNIFE1D",
                             runways: [
                                 "33"
                             ]
@@ -1068,25 +1069,25 @@ function generateAirports(): Airport[] {
                             ]
                         },
                         {
-                            name: "CAME1A",
+                            name: "CAMEL1A",
                             runways: [
                                 "11"
                             ]
                         },
                         {
-                            name: "CAME1B",
+                            name: "CAMEL1B",
                             runways: [
                                 "15"
                             ]
                         },
                         {
-                            name: "CAME1C",
+                            name: "CAMEL1C",
                             runways: [
                                 "29"
                             ]
                         },
                         {
-                            name: "CAME1D",
+                            name: "CAMEL1D",
                             runways: [
                                 "33"
                             ]
