@@ -41,7 +41,7 @@ function generateAirports(): Airport[] {
     return [
         {
             code: "IGAR",
-            friendlyName: "Air Base Garry",
+            friendlyName: "Airbase Garry",
             groundCallsign: "",
             towerCallsigns: [
                 "Garry Approach",
