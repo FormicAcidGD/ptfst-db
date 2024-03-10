@@ -26,6 +26,10 @@ function generateAircraft(): Aircraft[] {
             name: "A320neo"
         },
         {
+            icao: "AT72",
+            name: "ATR72"
+        },
+        {
             icao: "A320",
             name: "A320-100"
         },
