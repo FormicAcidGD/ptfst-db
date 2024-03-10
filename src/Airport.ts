@@ -1669,5 +1669,5 @@ function getAirportByName(name: string): Airport | undefined {
     })
     return a
 }
-export { getAirport as findAirport, getAirportByName, getDefaultAirport, type Airport, type ChartPack };
+export { getAirport as findAirport, generateAirports, getAirportByName, getDefaultAirport, type Airport, type ChartPack };
 
