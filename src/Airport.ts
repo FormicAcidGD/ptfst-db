@@ -134,7 +134,7 @@ function generateAirports(): Airport[] {
                     link: "https://docs.google.com/document/d/1wazg7w22DMyvJdu869_BnNwvA0aR6naw9y0kKw3sNO4/edit"
                 },
                 {
-                    author: "Sander",
+                    author: "sanderli25",
                     link: "https://cdn.discordapp.com/attachments/876914987715686440/888806599844593745/EGPR_CHARTS.pdf"
                 }
             ],
