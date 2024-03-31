@@ -679,7 +679,12 @@ function generateVORTACs(): VORTAC[] {
             x: 1323,
             y: 1609,
             name: "ROK"
-        }
+        },
+        {
+            x: 525,
+            y: 1305,
+            name: "GOL"
+        },
     ]
 }
 function generateAirports(): Fix[] {
