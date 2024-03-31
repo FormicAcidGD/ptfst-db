@@ -1656,7 +1656,12 @@ function generateAirports(): Airport[] {
             defaultTowerFrequency: "121.800",
             defaultGroundFrequency: "",
             maxAcft: "Amphibian",
-            chartPacks: [],
+            chartPacks: [
+                {
+                    author: "Official",
+                    link: "https://github.com/Treelon/ptfs-charts/tree/main/Grindavik/Tavaro%20Seabase"
+                },
+            ],
             generalInfo: "Location: Grindavik PTFS\nIATA: TVO\nLat/Long: N41° 50.2', W000° 10.6'\nElevation: 0 ft\n\nAirport Use: Public",
             runwayInfo: [
                 {
@@ -1682,8 +1687,13 @@ function generateAirports(): Airport[] {
             defaultTowerFrequency: "118.625",
             defaultGroundFrequency: "",
             maxAcft: "Amphibian",
-            chartPacks: [],
-            generalInfo: "Location: Perth PTFS\nIATA: TVO\nLat/Long: N41° 55.7', E000° 09.2'\nElevation: 0 ft\n\nAirport Use: Public",
+            chartPacks: [
+                {
+                    author: "Official",
+                    link: "https://github.com/Treelon/ptfs-charts/tree/main/Perth/Sea%20Haven"
+                },
+            ],
+            generalInfo: "Location: Perth PTFS\nIATA: SHV\nLat/Long: N41° 55.7', E000° 09.2'\nElevation: 0 ft\n\nAirport Use: Public",
             runwayInfo: [
                 {
                     name1: "18W",
@@ -1708,8 +1718,13 @@ function generateAirports(): Airport[] {
             defaultTowerFrequency: "118.600",
             defaultGroundFrequency: "",
             maxAcft: "Amphibian",
-            chartPacks: [],
-            generalInfo: "Location: Rockford PTFS\nIATA: TVO\nLat/Long: N41° 40.4', W000° 01.1'\nElevation: 0 ft\n\nAirport Use: Public",
+            chartPacks: [
+                {
+                    author: "Official",
+                    link: "https://github.com/Treelon/ptfs-charts/tree/main/Rockford/Waterloo"
+                },
+            ],
+            generalInfo: "Location: Rockford PTFS\nIATA: OWO\nLat/Long: N41° 40.4', W000° 01.1'\nElevation: 0 ft\n\nAirport Use: Public",
             runwayInfo: [
                 {
                     name1: "10W",
