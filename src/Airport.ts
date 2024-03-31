@@ -607,7 +607,8 @@ function generateAirports(): Airport[] {
                 "IGAR",
                 "IMLR",
                 "IBLT",
-                "ITRC"
+                "ITRC",
+                "OWO"
             ]
         },
         {
@@ -615,7 +616,7 @@ function generateAirports(): Airport[] {
             friendlyName: "Grindavik Airport",
             groundCallsign: "",
             towerCallsigns: [
-                "Keflavik Centre",
+                "Keflavik Control",
                 "Grindavik Approach",
                 "Grindavik Centre",
                 "Grindavik Control",
@@ -659,6 +660,10 @@ function generateAirports(): Airport[] {
                 }
 			],
             commsInfo: "ATIS: 128.300\nGrindavik Ground: 121.900\nGrindavik Tower: 118.300\nGrindavik Departure: 119.300\nKeflavik Control: 126.750",
+            topDowns:
+            [
+                "TVO"
+            ]
         },
         {
             code: "IHEN",
@@ -1111,7 +1116,8 @@ function generateAirports(): Airport[] {
 			],
             commsInfo: "ATIS: 123.800\nPerth Delivery: 118.550\nPerth Ground: 121.700\nPerth Tower: 127.400\nPerth Departure: 118.700\nPerth Centre: 135.250",
             topDowns: [
-                "ILKL"
+                "ILKL",
+                "SHV"
             ]
         },
         {
@@ -1235,7 +1241,7 @@ function generateAirports(): Airport[] {
             friendlyName: "Sauthemptona Airport",
             groundCallsign: "",
             towerCallsigns: [
-                "Brighton Centre",
+                "Brighton Control",
                 "Sauthemptona Approach",
                 "Sauthemptona Centre",
                 "Sauthemptona Control",
@@ -1635,6 +1641,84 @@ function generateAirports(): Airport[] {
                 }
 			],
             commsInfo: "Traning Centre Tower: 118.500\nChicago Centre: 124.850",
+        },
+        {
+            code: "TVO",
+            friendlyName: "Tavaro Seabase",
+            groundCallsign: "",
+            towerCallsigns: [
+                "Tavaro Approach",
+                "Tavaro Director",
+                "Tavaro Radar",
+                "Tavaro Tower",
+            ],
+            hasGround: false,
+            defaultTowerFrequency: "121.800",
+            defaultGroundFrequency: "",
+            maxAcft: "Amphibian",
+            chartPacks: [],
+            generalInfo: "Location: Grindavik PTFS\nIATA: TVO\nLat/Long: N41° 50.2', W000° 10.6'\nElevation: 0 ft\n\nAirport Use: Public",
+            runwayInfo: [
+                {
+                    name1: "4W",
+                    name2: "21W",
+                    length: 1000,
+                    type: "water"
+                }
+            ],
+            commsInfo: "Tavaro Tower: 121.800\nKeflavik Control: 126.750"
+        },
+        {
+            code: "SHV",
+            friendlyName: "Sea Haven Seabase",
+            groundCallsign: "",
+            towerCallsigns: [
+                "Sea Haven Approach",
+                "Sea Haven Director",
+                "Sea Haven Radar",
+                "Sea Haven Tower",
+            ],
+            hasGround: false,
+            defaultTowerFrequency: "118.625",
+            defaultGroundFrequency: "",
+            maxAcft: "Amphibian",
+            chartPacks: [],
+            generalInfo: "Location: Perth PTFS\nIATA: TVO\nLat/Long: N41° 55.7', E000° 09.2'\nElevation: 0 ft\n\nAirport Use: Public",
+            runwayInfo: [
+                {
+                    name1: "18W",
+                    name2: "36W",
+                    length: 1000,
+                    type: "water"
+                }
+            ],
+            commsInfo: "Sea Haven Tower: 118.625\nPerth Centre: 136.250"
+        },
+        {
+            code: "OWO",
+            friendlyName: "Waterloo Seabase",
+            groundCallsign: "",
+            towerCallsigns: [
+                "Waterloo Approach",
+                "Waterloo Director",
+                "Waterloo Radar",
+                "Waterloo Tower",
+            ],
+            hasGround: false,
+            defaultTowerFrequency: "118.600",
+            defaultGroundFrequency: "",
+            maxAcft: "Amphibian",
+            chartPacks: [],
+            generalInfo: "Location: Rockford PTFS\nIATA: TVO\nLat/Long: N41° 40.4', W000° 01.1'\nElevation: 0 ft\n\nAirport Use: Public",
+            runwayInfo: [
+                {
+                    name1: "10W",
+                    name2: "28W",
+                    length: 1000,
+                    type: "water"
+                }
+            ],
+            commsInfo: "Waterloo Radar: 118.600\nChicago Centre: 124.850"
         }
     ]
 }
