@@ -180,7 +180,6 @@ function generateAirports(): Airport[] {
             friendlyName: "Greater Rockford",
             groundCallsign: "Rockford Ground",
             towerCallsigns: [
-                "Rockford Centre",
                 "Rockford Approach",
                 "Rockford Centre",
                 "Rockford Control",
