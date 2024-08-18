@@ -63,13 +63,13 @@ function generateAirports(): Airport[] {
             generalInfo: "Location: Rockford PTFS\nICAO/IATA: IGAR / ABG\nLat/Long: N41° 44.6', W000° 02.0'\nElevation: 0 ft\n\nAirport Use: Military",
             runwayInfo: [
                 {
-                    name1: "01",
-                    name2: "19",
-                    length: 2078,
+                    name1: "04",
+                    name2: "22",
+                    length: 2980,
                     type: "concrete"
                 }
 			],
-            commsInfo: "Garry Tower: 118.800\nChicago Centre: 124.850",
+            commsInfo: "Garry Tower: 118.800\nRockford Centre: 124.850",
         },
         {
             code: "IJAF",
@@ -167,20 +167,20 @@ function generateAirports(): Airport[] {
             generalInfo: "Location: Rockford PTFS\nICAO/IATA: IBLT / BOL\nLat/Long: N41° 44.8', W000° 00.9'\nElevation: 0 ft\n\nAirport Use: Public",
             runwayInfo: [
                 {
-                    name1: "15",
-                    name2: "33",
-                    length: 496,
-                    type:"grass"
+                    name1: "19",
+                    name2: "1",
+                    length: 1378,
+                    type:"concrete"
                 }
 			],
-            commsInfo: "Boltic Tower: 118.430\nChicago Centre: 124.850",
+            commsInfo: "Boltic Tower: 118.430\nRockford Centre: 124.850",
         },
         {
             code: "IRFD",
             friendlyName: "Greater Rockford",
             groundCallsign: "Rockford Ground",
             towerCallsigns: [
-                "Chicago Centre",
+                "Rockford Centre",
                 "Rockford Approach",
                 "Rockford Centre",
                 "Rockford Control",
@@ -590,19 +590,25 @@ function generateAirports(): Airport[] {
             generalInfo: "Location: Rockford PTFS\nICAO/IATA: IRFD / RFD\nLat/Long: N41° 43.3', W000° 01.4'\nElevation: 0 ft\n\nAirport Use: Public",
             runwayInfo: [
                 {
-                    name1: "18R",
-                    name2: "36L",
-                    length: 3535,
+                    name1: "25R",
+                    name2: "07L",
+                    length: 3048,
                     type: "concrete"
                 },
                 {
-                    name1: "18L",
-                    name2: "36R",
-                    length: 3000,
+                    name1: "25C",
+                    name2: "06C",
+                    length: 3680,
+                    type: "concrete"
+                },            
+                {
+                    name1: "25L",
+                    name2: "07R",
+                    length: 3197,
                     type: "concrete"
                 }
 			],
-            commsInfo: "ATIS: 127.600\nRockford Delivery: 128.400\nRockford Ground: 120.400\nRockford Tower: 118.100\nRockford Departure: 121.000\nChicago Centre: 124.850",
+            commsInfo: "ATIS: 127.600\nRockford Delivery: 128.400\nRockford Ground: 120.400\nRockford Tower: 118.100\nRockford Departure: 121.000\nRockford Centre: 124.850",
             topDowns: [
                 "IGAR",
                 "IMLR",
@@ -694,7 +700,7 @@ function generateAirports(): Airport[] {
                     type: "concrete"
                 }
 			],
-            commsInfo: "Henstridge Tower: 118.200\nChicago Centre: 124.850",
+            commsInfo: "Henstridge Tower: 118.200\nRockford Centre: 124.850",
         },
         {
             code: "IZOL",
@@ -948,13 +954,13 @@ function generateAirports(): Airport[] {
             generalInfo: "Location: Rockford PTFS\nICAO/IATA: IMLR / MEL\nLat/Long: N41° 43.3', W000° 00.1'\nElevation: 0 ft\n\nAirport Use: Public",
             runwayInfo: [
                 {
-                    name1: "11",
-                    name2: "29",
+                    name1: "7",
+                    name2: "25",
                     length: 2997,
                     type: "concrete"
                 }
 			],
-            commsInfo: "ATIS: 126.030\nMellor Delivery: 121.930\nMellor Tower: 133.850\nMellor Radar: 125.650\nChicago Centre: 124.850",
+            commsInfo: "ATIS: 126.030\nMellor Delivery: 121.930\nMellor Tower: 133.850\nMellor Radar: 125.650\nRockford Centre: 124.850",
         },
         {
             code: "IPAP",
@@ -1640,7 +1646,7 @@ function generateAirports(): Airport[] {
                     type: "concrete"
                 }
 			],
-            commsInfo: "Traning Centre Tower: 118.500\nChicago Centre: 124.850",
+            commsInfo: "Traning Centre Tower: 118.500\nRockford Centre: 124.850",
         },
         {
             code: "TVO",
@@ -1733,7 +1739,7 @@ function generateAirports(): Airport[] {
                     type: "water"
                 }
             ],
-            commsInfo: "Waterloo Radar: 118.600\nChicago Centre: 124.850"
+            commsInfo: "Waterloo Radar: 118.600\nRockford Centre: 124.850"
         }
     ]
 }
