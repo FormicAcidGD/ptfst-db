@@ -2,7 +2,7 @@
 
 ## Overview
 
-**ptfst-db** is a package that provides essential data related to the ATC24 server for PTFS (Pilot Training Flight Simulator). This data is used by all PTFS Tools Applications for runways and whatever else there is.
+**ptfst-db** is a package that provides essential, outdated, shitty data related to the ATC24 server for PTFS (Pilot Training Flight Simulator). This data is used by all PTFS Tools Applications for runways and whatever else there is.
 
 ## Installation
 
