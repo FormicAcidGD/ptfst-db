@@ -13,7 +13,10 @@ You can install ptfst-db using either npm or Yarn. (wow so fancy)
 ```sh
 npm install ptfst-db
 ```
-
+or (system-wide most likely not needed but if wanted can be installed like this) 
+```sh
+npm install -g ptfst-db
+```
 ### Using Yarn
 
 ```sh
