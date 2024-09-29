@@ -596,7 +596,7 @@ function generateAirports(): Airport[] {
                 },
                 {
                     name1: "25C",
-                    name2: "06C",
+                    name2: "07C",
                     length: 3680,
                     type: "concrete"
                 },            
