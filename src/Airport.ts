@@ -50,7 +50,7 @@ function generateAirports(): Airport[] {
                 "Garry Tower",
             ],
             hasGround: false,
-            defaultTowerFrequency: "118.800",
+            defaultTowerFrequency: "125.600",
             defaultGroundFrequency: "",
             maxAcft: "N/A",
             chartPacks: [
@@ -69,21 +69,21 @@ function generateAirports(): Airport[] {
                     type: "concrete"
                 }
 			],
-            commsInfo: "Garry Tower: 118.800\nRockford Centre: 124.850",
+            commsInfo: "Garry Tower: 125.600\nRockford Centre: 124.850",
         },
         {
             code: "IJAF",
             friendlyName: "Al Najaf",
-            groundCallsign: "",
+            groundCallsign: "Al Najaf Ground",
             towerCallsigns: [
                 "Al Najaf Approach",
                 "Al Najaf Director",
                 "Al Najaf Radar",
                 "Al Najaf Tower",
             ],
-            hasGround: false,
-            defaultTowerFrequency: "119.1",
-            defaultGroundFrequency: "",
+            hasGround: true,
+            defaultTowerFrequency: "119.100",
+            defaultGroundFrequency: "121.700",
             maxAcft: "CRJ7/Q400",
             chartPacks: [
                  {
@@ -108,7 +108,7 @@ function generateAirports(): Airport[] {
                     type: "concrete"
                 }
 			],
-            commsInfo: "ATIS: 123.900\nAl Najaf Ground: 121.700\nAl Najaf Tower: 119.1\nAl Najaf Approach: 120.200\nNorsom Centre: 125.640",
+            commsInfo: "ATIS: 123.900\nAl Najaf Ground: 121.700\nAl Najaf Tower: 119.100\nAl Najaf Approach: 120.200\nNorsom Centre: 125.650",
         },
         {
             code: "IBAR",
@@ -121,7 +121,7 @@ function generateAirports(): Airport[] {
                 "Barra Tower",
             ],
             hasGround: false,
-            defaultTowerFrequency: "118.080",
+            defaultTowerFrequency: "118.750",
             defaultGroundFrequency: "",
             maxAcft: "SF50/DHC6",
             chartPacks: [
@@ -142,7 +142,7 @@ function generateAirports(): Airport[] {
             runwayInfo: [
 
 			],
-            commsInfo: "Barra Tower: 118.080\nLazarus Centre: 126.300",
+            commsInfo: "Barra Tower: 118.750\nLazarus Centre: 126.300",
         },
         {
             code: "IBLT",
@@ -155,7 +155,7 @@ function generateAirports(): Airport[] {
                 "Boltic Tower",
             ],
             hasGround: false,
-            defaultTowerFrequency: "118.430",
+            defaultTowerFrequency: "120.250",
             defaultGroundFrequency: "",
             maxAcft: "SF50/DHC6",
             chartPacks: [
@@ -173,7 +173,7 @@ function generateAirports(): Airport[] {
                     type:"concrete"
                 }
 			],
-            commsInfo: "Boltic Tower: 118.430\nRockford Centre: 124.850",
+            commsInfo: "Boltic Tower: 120.250\nRockford Centre: 124.850",
         },
         {
             code: "IRFD",
@@ -682,7 +682,7 @@ function generateAirports(): Airport[] {
                 "Henstridge Tower",
             ],
             hasGround: false,
-            defaultTowerFrequency: "118.200",
+            defaultTowerFrequency: "130.250",
             defaultGroundFrequency: "",
             maxAcft: "SF50/DHC6",
             chartPacks: [
@@ -700,7 +700,7 @@ function generateAirports(): Airport[] {
                     type: "concrete"
                 }
 			],
-            commsInfo: "Henstridge Tower: 118.200\nRockford Centre: 124.850",
+            commsInfo: "Henstridge Tower: 130.250\nRockford Centre: 124.850",
         },
         {
             code: "IZOL",
@@ -716,7 +716,7 @@ function generateAirports(): Airport[] {
                 "Izolirani Tower",
             ],
             hasGround: true,
-            defaultTowerFrequency: "124.640",
+            defaultTowerFrequency: "125.650",
             defaultGroundFrequency: "121.900",
             maxAcft: "N/A",
             chartPacks: [
@@ -746,7 +746,7 @@ function generateAirports(): Airport[] {
                     type: "concrete"
                 }
 			],
-            commsInfo: "ATIS: 127.800\nIzolirani Delivery: 128.200\nIzolirani Ground: 121.900\nIzolirani Tower: 118.700\nIzolirani Departure: 124.300\nNorsom Centre: 125.640",
+            commsInfo: "ATIS: 127.800\nIzolirani Delivery: 128.200\nIzolirani Ground: 121.900\nIzolirani Tower: 118.700\nIzolirani Departure: 124.300\nNorsom Centre: 125.650",
             topDowns: [
                 "IJAF",
                 "ISCM"
@@ -1137,7 +1137,7 @@ function generateAirports(): Airport[] {
                 "Scampton Tower",
             ],
             hasGround: false,
-            defaultTowerFrequency: "118.220",
+            defaultTowerFrequency: "121.300",
             defaultGroundFrequency: "",
             maxAcft: "N/A",
             chartPacks: [
@@ -1155,7 +1155,7 @@ function generateAirports(): Airport[] {
                     type: "concrete"
                 }
 			],
-            commsInfo: "Scampton Tower: 118.220\nNorsom Centre: 125.640",
+            commsInfo: "Scampton Tower: 121.300\nNorsom Centre: 125.650",
         },
         {
             code: "IDCS",
@@ -1168,7 +1168,7 @@ function generateAirports(): Airport[] {
                 "Saba Tower",
             ],
             hasGround: false,
-            defaultTowerFrequency: "122.500",
+            defaultTowerFrequency: "118.250",
             defaultGroundFrequency: "",
             maxAcft: "SF50/DHC6",
             chartPacks: [
@@ -1190,7 +1190,7 @@ function generateAirports(): Airport[] {
                     type: "concrete"
                 }
 			],
-            commsInfo: "ATIS: 118.250\nSaba Tower: 122.500\nTokyo Control: 132.300",
+            commsInfo: "ATIS: 118.250\nSaba Tower: 118.250\nTokyo Control: 132.300",
         },
         {
             code: "IBTH",
@@ -1240,12 +1240,12 @@ function generateAirports(): Airport[] {
                     type: "concrete"
                 }
 			],
-            commsInfo: "ATIS: 118.450\nSotaf Centre: 128.600",
+            commsInfo: "ATIS: 118.450\nSaint Barthelemy Tower: 118.700\nSotaf Centre: 128.600",
         },
         {
             code: "ISAU",
             friendlyName: "Sauthemptona Airport",
-            groundCallsign: "",
+            groundCallsign: "Sauthemptona Ground",
             towerCallsigns: [
                 "Brighton Control",
                 "Sauthemptona Approach",
@@ -1255,9 +1255,9 @@ function generateAirports(): Airport[] {
                 "Sauthemptona Radar",
                 "Sauthemptona Tower",
             ],
-            hasGround: false,
-            defaultTowerFrequency: "127.820",
-            defaultGroundFrequency: "",
+            hasGround: true,
+            defaultTowerFrequency: "127.825",
+            defaultGroundFrequency: "130.880",
             maxAcft: "A320/B737/MD90",
             chartPacks: [
                 {
@@ -1282,7 +1282,7 @@ function generateAirports(): Airport[] {
                     type: "concrete"
                 }
 			],
-            commsInfo: "ATIS: 113.350\nSauthemptona Ground: 130.880\nSauthemptona Tower: 118.205\nSauthemptona Radar: 122.730\nBrighton Control: 127.820",
+            commsInfo: "ATIS: 113.350\nSauthemptona Ground: 130.880\nSauthemptona Tower: 118.200\nSauthemptona Radar: 122.730\nBrighton Control: 127.825",
         },
         {
             code: "ISKP",
@@ -1297,7 +1297,7 @@ function generateAirports(): Airport[] {
                 "Skopelos Tower",
             ],
             hasGround: false,
-            defaultTowerFrequency: "118.400",
+            defaultTowerFrequency: "123.250",
             defaultGroundFrequency: "",
             maxAcft: "SF50/DHC6",
             chartPacks: [
@@ -1315,7 +1315,7 @@ function generateAirports(): Airport[] {
                     type: "grass"
                 }
 			],
-            commsInfo: "Skopelos Tower: 118.400",
+            commsInfo: "Skopelos Tower: 123.250",
         },
         {
             code: "ITKO",
@@ -1610,8 +1610,107 @@ function generateAirports(): Airport[] {
 			],
             commsInfo: "ATIS: 128.800\nTokyo Delivery: 121.825\nTokyo Ground: 118.225\nTokyo Tower: 118.800\nTokyo Departure: 119.100\nTokyo Control: 132.300",
             topDowns: [
-                "IDCS"
+                "IDCS",
+                "IBRD"
             ]
+        },
+        {
+            code: "IBRD",
+            friendlyName: "Bird Island",
+            groundCallsign: "",
+            towerCallsigns: [
+                "Bird Island Tower",
+            ],
+            hasGround: false,
+            defaultTowerFrequency: "118.350",
+            defaultGroundFrequency: "",
+            maxAcft: "N/A",
+            chartPacks: [
+                {
+                    author: "Official",
+                    link: "https://github.com/Treelon/ptfs-charts/tree/main/Orenji/Bird%20Island"
+                },
+            ],
+            generalInfo: "Location: Orenji PTFS\nICAO: IBRD\n\nAirport Use: Public",
+            runwayInfo: [
+                {
+                    name1: "08",
+                    name2: "26",
+                    length: 1130,
+                    type: "concrete"
+                }
+            ],
+            commsInfo: "Bird Island Tower: 118.350\nTokyo Control: 132.300",
+        },
+        {
+            code: "IKFL",
+            friendlyName: "Keflavik",
+            groundCallsign: "Keflavik Ground",
+            towerCallsigns: [
+                "Keflavik Approach",
+                "Keflavik Centre",
+                "Keflavik Control",
+                "Keflavik Director",
+                "Keflavik Radar",
+                "Keflavik Tower",
+            ],
+            hasGround: true,
+            defaultTowerFrequency: "126.750",
+            defaultGroundFrequency: "121.750",
+            maxAcft: "N/A",
+            chartPacks: [
+                {
+                    author: "Official",
+                    link: "https://github.com/Treelon/ptfs-charts/tree/main/Grindavik/Keflavik"
+                },
+            ],
+            generalInfo: "Location: Grindavik PTFS\nICAO/IATA: IKFL / KEF\n\nAirport Use: Public",
+            runwayInfo: [
+                {
+                    name1: "07",
+                    name2: "25",
+                    length: 3430,
+                    type: "concrete"
+                },
+                {
+                    name1: "16",
+                    name2: "34",
+                    length: 3430,
+                    type: "concrete"
+                }
+            ],
+            commsInfo: "Keflavik Ground: 121.750\nKeflavik Tower: 118.300\nKeflavik Control: 126.750",
+            topDowns: [
+                "ITEY"
+            ]
+        },
+        {
+            code: "ITEY",
+            friendlyName: "Pingeyri",
+            groundCallsign: "",
+            towerCallsigns: [
+                "Pingeyri Tower",
+            ],
+            hasGround: false,
+            defaultTowerFrequency: "119.425",
+            defaultGroundFrequency: "",
+            maxAcft: "N/A",
+            chartPacks: [
+                {
+                    author: "Official",
+                    link: "https://github.com/Treelon/ptfs-charts/tree/main/Grindavik/Pingeyri"
+                },
+            ],
+            generalInfo: "Location: Grindavik PTFS\nICAO/IATA: ITEY / TEY\n\nAirport Use: Public",
+            runwayInfo: [
+                {
+                    name1: "13",
+                    name2: "31",
+                    length: 1000,
+                    type: "concrete"
+                }
+            ],
+            commsInfo: "Pingeyri Tower: 119.425\nKeflavik Control: 126.750",
         },
         {
             code: "ITRC",
@@ -1624,7 +1723,7 @@ function generateAirports(): Airport[] {
                 "Training Centre Tower",
             ],
             hasGround: false,
-            defaultTowerFrequency: "118.500",
+            defaultTowerFrequency: "119.150",
             defaultGroundFrequency: "",
             maxAcft: "C172",
             chartPacks: [
@@ -1646,7 +1745,7 @@ function generateAirports(): Airport[] {
                     type: "concrete"
                 }
 			],
-            commsInfo: "Traning Centre Tower: 118.500\nRockford Centre: 124.850",
+            commsInfo: "Training Centre Tower: 119.150\nRockford Centre: 124.850",
         },
         {
             code: "TVO",

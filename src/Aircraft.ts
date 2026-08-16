@@ -673,7 +673,102 @@ function generateAircraft(): Aircraft[] {
             icao: "S92",
             name: "S-92 Helibus"
         },
-
+        {
+            icao: "A340",
+            name: "Airbus A340"
+        },
+        {
+            icao: "H47",
+            name: "Chinook"
+        },
+        {
+            icao: "P28A",
+            name: "Piper PA28"
+        },
+        {
+            icao: "A330",
+            name: "Airbus A330"
+        },
+        {
+            icao: "AN22",
+            name: "An22"
+        },
+        {
+            icao: "B707",
+            name: "EC-18B"
+        },
+        {
+            icao: "E190",
+            name: "E190"
+        },
+        {
+            icao: "E3TF",
+            name: "E-3 Sentry"
+        },
+        {
+            icao: "HAWK",
+            name: "Hawk T1"
+        },
+        {
+            icao: "F18",
+            name: "F/A-18 Super Hornet"
+        },
+        {
+            icao: "SU57",
+            name: "SU57"
+        },
+        {
+            icao: "BLIMP",
+            name: "CaravanBlimp"
+        },
+        {
+            icao: "PARA",
+            name: "Paratrike"
+        },
+        {
+            icao: "VULC",
+            name: "Avro Vulcan"
+        },
+        {
+            icao: "SF50",
+            name: "Cirrus Vision"
+        },
+        {
+            icao: "H60",
+            name: "UH-60"
+        },
+        {
+            icao: "EX3",
+            name: "Extra 300s"
+        },
+        {
+            icao: "J3C",
+            name: "Piper Cub Amphibian"
+        },
+        {
+            icao: "F35",
+            name: "F35"
+        },
+        {
+            icao: "BE9T",
+            name: "King Air 260"
+        },
+        {
+            icao: "C17",
+            name: "C17"
+        },
+        {
+            icao: "L101",
+            name: "Lockheed Tristar"
+        },
+        {
+            icao: "L101-KC-1",
+            name: "KC-1"
+        },
+        {
+            icao: "B1",
+            name: "B1 Lancer"
+        },
     ].sort((a, b) => (a.icao + "z" + a.name).localeCompare(b.icao + "z" + b.name))
 }
 
